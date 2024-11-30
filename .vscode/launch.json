@@ -1,0 +1,18 @@
+{
+    // .vscode/launch.json file
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug ek-ra8d1-blinky",
+        "type": "cortex-debug",
+        "request": "launch",
+        "servertype": "jlink",
+        "cwd": "${workspaceRoot}",
+        "executable": "build/ek-ra8d1-blinky",
+        "serverpath": "JLinkGDBServerCLExe",
+        "device": "R7FA8D1BH",
+        "interface": "swd",
+        "runToEntryPoint": "main"
+      }
+    ]
+}
